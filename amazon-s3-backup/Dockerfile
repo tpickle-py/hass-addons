@@ -17,7 +17,7 @@ ARG BUILD_ARCH
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
-
+RUN pip3 install boto3
 # Labels
 LABEL \
     io.hass.name="Amazon S3 Backup" \
